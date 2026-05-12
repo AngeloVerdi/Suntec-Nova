@@ -11,6 +11,8 @@ import {
   FileText,
   Home,
   Zap,
+  Plug,
+  CalendarCheck,
 } from "lucide-react";
 import CTAButton from "@/components/ui/CTAButton";
 import SectionHeading from "@/components/ui/SectionHeading";
@@ -146,7 +148,7 @@ export default function FoerderungPage() {
               style={{ background: "rgba(245,168,0,0.2)", color: "#ffc324" }}
             >
               <Banknote className="w-3.5 h-3.5" />
-              Aktuelle Förderprogramme 2024/2025
+              Aktuelle Förderprogramme 2025/2026
             </div>
             <h1 className="text-4xl sm:text-5xl font-bold text-white leading-tight mb-6">
               Bis zu 70 % Förderung –{" "}
@@ -286,6 +288,127 @@ export default function FoerderungPage() {
                 <p className="text-sm text-slate-600 leading-relaxed">{item.description}</p>
               </div>
             ))}
+          </div>
+        </div>
+      </section>
+
+      {/* ─── EEG EINSPEISEVERGÜTUNG 2026 ─────────────────── */}
+      <section className="py-20 bg-[#071428]">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+
+          {/* Headline */}
+          <div className="text-center mb-12">
+            <div
+              className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full mb-4 text-xs font-bold uppercase tracking-widest"
+              style={{ background: "rgba(245,168,0,0.15)", color: "#ffc324" }}
+            >
+              <CalendarCheck className="w-3.5 h-3.5" />
+              Gesetz § 21 EEG 2023 – Gültig in 2026
+            </div>
+            <h2 className="text-3xl md:text-4xl font-bold text-white leading-tight mb-4">
+              Strom einspeisen &{" "}
+              <span style={{ color: "#f5a800" }}>20 Jahre lang Geld verdienen.</span>
+            </h2>
+            <p className="text-slate-300 max-w-2xl mx-auto leading-relaxed">
+              Wer 2026 eine Photovoltaikanlage installiert, sichert sich die gesetzliche
+              Einspeisevergütung nach § 21 EEG 2023 – für volle 20 Jahre ab Inbetriebnahme.
+              Jede überschüssige Kilowattstunde, die ins öffentliche Netz fließt, wird
+              automatisch vergütet. Kein Antrag, kein Aufwand – es funktioniert von selbst.
+            </p>
+          </div>
+
+          {/* Vergütungssätze 2026 */}
+          <div className="grid md:grid-cols-3 gap-5 mb-10">
+            <div className="rounded-2xl p-6 border border-white/10 bg-white/5 text-center">
+              <div className="text-4xl font-black mb-2" style={{ color: "#f5a800" }}>
+                ca. 8 ct
+              </div>
+              <div className="text-white font-semibold text-sm mb-1">pro kWh Einspeisung</div>
+              <div className="text-slate-400 text-xs">Anlagen ≤ 10 kWp (Überschusseinspeisung)</div>
+            </div>
+            <div className="rounded-2xl p-6 border border-white/10 bg-white/5 text-center">
+              <div className="text-4xl font-black mb-2" style={{ color: "#f5a800" }}>
+                ca. 12 ct
+              </div>
+              <div className="text-white font-semibold text-sm mb-1">pro kWh Volleinspeisung</div>
+              <div className="text-slate-400 text-xs">Anlagen ≤ 10 kWp (alles ins Netz)</div>
+            </div>
+            <div className="rounded-2xl p-6 border border-white/10 bg-white/5 text-center">
+              <div className="text-4xl font-black mb-2" style={{ color: "#f5a800" }}>
+                20 Jahre
+              </div>
+              <div className="text-white font-semibold text-sm mb-1">Vergütungsgarantie</div>
+              <div className="text-slate-400 text-xs">Gesetzlich fixiert ab Inbetriebnahme</div>
+            </div>
+          </div>
+
+          {/* Erklärungsbox */}
+          <div className="grid lg:grid-cols-2 gap-6 mb-8">
+            <div className="rounded-2xl p-6 border border-white/10 bg-white/5">
+              <div className="flex items-center gap-3 mb-4">
+                <div className="w-10 h-10 rounded-xl flex items-center justify-center shrink-0" style={{ background: "rgba(245,168,0,0.15)" }}>
+                  <Plug className="w-5 h-5" style={{ color: "#f5a800" }} />
+                </div>
+                <h3 className="text-white font-bold">Wie funktioniert Einspeisung?</h3>
+              </div>
+              <div className="space-y-2.5">
+                {[
+                  "Ihre Anlage produziert tagsüber Solarstrom",
+                  "Was Sie selbst nicht verbrauchen, fließt automatisch ins öffentliche Netz",
+                  "Der Netzbetreiber misst und vergütet jede eingespeiste kWh",
+                  "Die Vergütung wird monatlich oder jährlich auf Ihr Konto überwiesen",
+                  "Kein Antrag nötig – der Anspruch entsteht automatisch mit der Inbetriebnahme",
+                ].map((item, i) => (
+                  <div key={i} className="flex items-start gap-2.5">
+                    <CheckCircle className="w-4 h-4 shrink-0 mt-0.5" style={{ color: "#f5a800" }} />
+                    <span className="text-slate-300 text-sm">{item}</span>
+                  </div>
+                ))}
+              </div>
+            </div>
+
+            <div className="rounded-2xl p-6 border border-white/10 bg-white/5">
+              <div className="flex items-center gap-3 mb-4">
+                <div className="w-10 h-10 rounded-xl flex items-center justify-center shrink-0" style={{ background: "rgba(245,168,0,0.15)" }}>
+                  <CalendarCheck className="w-5 h-5" style={{ color: "#f5a800" }} />
+                </div>
+                <h3 className="text-white font-bold">Warum jetzt 2026 wichtig ist</h3>
+              </div>
+              <div className="space-y-2.5">
+                {[
+                  "Die Einspeisevergütung gilt noch in vollem Umfang für alle Neuanlagen 2026",
+                  "Die Vergütungssätze sinken laut EEG halbjährlich (Degression) – wer früher baut, sichert sich höhere Sätze",
+                  "Der Eigenverbrauchsvorteil + Einspeisevergütung zusammen amortisieren Ihre Anlage deutlich schneller",
+                  "Für 10 kWp-Anlage ca. 800–1.000 € Einspeisevergütung pro Jahr zusätzlich zum Eigenverbrauch",
+                  "Mit Speicher: Eigenverbrauch maximieren und Einspeisevergütung als Bonus kassieren",
+                ].map((item, i) => (
+                  <div key={i} className="flex items-start gap-2.5">
+                    <CheckCircle className="w-4 h-4 shrink-0 mt-0.5" style={{ color: "#f5a800" }} />
+                    <span className="text-slate-300 text-sm">{item}</span>
+                  </div>
+                ))}
+              </div>
+            </div>
+          </div>
+
+          {/* Hinweis + CTA */}
+          <div
+            className="rounded-2xl p-6 border-l-4 flex flex-col sm:flex-row gap-4 items-start sm:items-center"
+            style={{ borderColor: "#f5a800", background: "rgba(245,168,0,0.07)" }}
+          >
+            <Info className="w-6 h-6 shrink-0" style={{ color: "#f5a800" }} />
+            <div className="flex-1">
+              <p className="text-white font-semibold mb-1">Rechtliche Grundlage: § 21 EEG 2023</p>
+              <p className="text-slate-400 text-sm leading-relaxed">
+                Die Einspeisevergütung ist gesetzlich verankert und gilt für alle Anlagen, die beim
+                Netzbetreiber angemeldet sind. Die angegebenen Sätze (ca. 8 ct/kWh bzw. ca. 12 ct/kWh
+                Volleinspeisung) sind Richtwerte für 2026 – die exakten Sätze hängen vom
+                Inbetriebnahmedatum ab. Wir ermitteln den aktuellen Tarif für Sie.
+              </p>
+            </div>
+            <CTAButton href="/kontakt" className="shrink-0">
+              Vergütung berechnen
+            </CTAButton>
           </div>
         </div>
       </section>
