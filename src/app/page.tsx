@@ -15,7 +15,6 @@ import {
   Wrench,
 } from "lucide-react";
 import FAQ from "@/components/sections/FAQ";
-import Testimonials from "@/components/sections/Testimonials";
 import ProcessSteps from "@/components/sections/ProcessSteps";
 import RegionSection from "@/components/sections/RegionSection";
 import FoerderSection from "@/components/sections/FoerderSection";
@@ -191,6 +190,19 @@ export default function HomePage() {
         </div>
       </section>
 
+      {/* ─── VIDEO ────────────────────────────────────────── */}
+      <section className="py-0 bg-black">
+        <video
+          className="w-full max-h-[500px] object-cover"
+          autoPlay
+          muted
+          loop
+          playsInline
+        >
+          <source src="/images/video-wartung.mp4" type="video/mp4" />
+        </video>
+      </section>
+
       {/* ─── TRUST BAR ───────────────────────────────────── */}
       <section className="py-12 bg-white border-b border-slate-100">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -360,9 +372,6 @@ export default function HomePage() {
 
       {/* ─── PARTNERS ─────────────────────────────────────── */}
       <PartnersSection />
-
-      {/* ─── TESTIMONIALS ─────────────────────────────────── */}
-      <Testimonials />
 
       {/* ─── FAQ ──────────────────────────────────────────── */}
       <FAQ items={siteConfig.faqItems} />

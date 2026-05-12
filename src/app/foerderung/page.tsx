@@ -127,8 +127,9 @@ export default function FoerderungPage() {
       {/* ─── HERO ─────────────────────────────────────────── */}
       <section
         className="relative pt-32 pb-20 overflow-hidden"
-        style={{ background: "linear-gradient(135deg, #071428 0%, #0e2244 60%, #172e5e 100%)" }}
+        style={{ backgroundImage: "url('/images/foerderung.jpg')", backgroundSize: "cover", backgroundPosition: "center top" }}
       >
+        <div className="absolute inset-0" style={{ background: "linear-gradient(135deg, rgba(7,20,40,0.90) 0%, rgba(14,34,68,0.82) 100%)" }} />
         <div
           className="absolute top-0 right-1/3 w-[500px] h-[500px] rounded-full blur-3xl opacity-10 pointer-events-none"
           style={{ background: "radial-gradient(circle, #f5a800, transparent)" }}

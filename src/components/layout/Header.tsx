@@ -12,7 +12,6 @@ const navLinks = [
   { href: "/waermepumpe", label: "Wärmepumpe" },
   { href: "/wartung", label: "Wartung" },
   { href: "/foerderung", label: "Förderung" },
-  { href: "/referenzen", label: "Referenzen" },
   { href: "/ueber-uns", label: "Über uns" },
   { href: "/kontakt", label: "Kontakt" },
 ];

@@ -19,16 +19,16 @@ export const siteConfig = {
   country: "Deutschland",
   mainRegion: "Rhein-Main-Gebiet",
   whatsapp: "4915206066696",
-  foundedYear: "2015",
+  foundedYear: "2024",
   employeeCount: "12",
   projectsCompleted: "300",
   yearsExperience: "10",
 
   // Gründer / Ansprechpartner
   founder: {
-    name: "Angelo Iliev",
+    name: "Angelov Ivan Iliev",
     role: "Gründer & Geschäftsführer",
-    bio: "Angelo Iliev gründete SunTec Nova mit einer klaren Vision: Hausbesitzern im Rhein-Main-Gebiet einen ehrlichen, kompetenten Partner für die Energiewende zu bieten. Mit jahrelanger Erfahrung in der Solarbranche kennt er die Technik bis ins Detail – und weiß, was Kunden wirklich brauchen.",
+    bio: "Angelov Ivan Iliev gründete SunTec Nova mit einer klaren Vision: Hausbesitzern im Rhein-Main-Gebiet einen ehrlichen, kompetenten Partner für die Energiewende zu bieten. Mit jahrelanger Erfahrung in der Solarbranche kennt er die Technik bis ins Detail – und weiß, was Kunden wirklich brauchen.",
     image: "/images/team/angelo.jpg", // Bitte eigenes Foto hinterlegen
   },
 
@@ -326,9 +326,9 @@ export const siteConfig = {
     ueberUns: {
       title: "Über uns | SunTec Nova – Ihr Energiepartner im Rhein-Main-Gebiet | Hanau",
       description:
-        "Lernen Sie SunTec Nova kennen – regionaler Fachbetrieb für Photovoltaik und Wärmepumpen in Hanau. Gegründet von Angelo Iliev. Seit Jahren verlässlich, persönlich, kompetent.",
+        "Lernen Sie SunTec Nova kennen – regionaler Fachbetrieb für Photovoltaik und Wärmepumpen in Hanau. Gegründet von Angelov Ivan Iliev. Seit Jahren verlässlich, persönlich, kompetent.",
       keywords:
-        "SunTec Nova, Angelo Iliev, Energiepartner Hanau, Fachbetrieb Photovoltaik Wärmepumpe Hanau",
+        "SunTec Nova, Angelov Ivan Iliev, Energiepartner Hanau, Fachbetrieb Photovoltaik Wärmepumpe Hanau",
     },
     kontakt: {
       title: "Kontakt | Kostenlose Beratung anfragen | SunTec Nova Hanau",

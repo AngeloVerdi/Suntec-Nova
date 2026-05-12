@@ -263,6 +263,14 @@ export default function WartungPage() {
         </div>
       </section>
 
+      {/* ─── VIDEO ────────────────────────────────────────── */}
+      <section className="bg-black">
+        <video className="w-full max-h-[480px] object-cover" autoPlay muted loop playsInline>
+          <source src="/images/video-hero.mov" type="video/quicktime" />
+          <source src="/images/video-wartung.mp4" type="video/mp4" />
+        </video>
+      </section>
+
       {/* ─── REINIGUNG ────────────────────────────────────── */}
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

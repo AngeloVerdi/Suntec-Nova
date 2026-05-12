@@ -41,15 +41,16 @@ export default function ImpressumPage() {
           <section>
             <h2 className="text-xl font-bold text-[#071428] mb-3">Handelsregister</h2>
             <p className="text-slate-600 text-sm leading-relaxed">
-              [Handelsregisternummer und -gericht eintragen]<br />
-              Umsatzsteuer-ID: [USt-IdNr. eintragen]
+              Registergericht: Amtsgericht Hanau<br />
+              Registernummer: HRB 99910<br />
+              Umsatzsteuer-ID: [USt-IdNr. bitte eintragen]
             </p>
           </section>
 
           <section>
             <h2 className="text-xl font-bold text-[#071428] mb-3">Verantwortlich für den Inhalt (§ 18 MStV)</h2>
             <p className="text-slate-600 text-sm leading-relaxed">
-              [Name des Verantwortlichen]<br />
+              Angelov Ivan Iliev<br />
               {siteConfig.street}<br />
               {siteConfig.postalCode} {siteConfig.city}
             </p>

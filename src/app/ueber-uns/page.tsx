@@ -69,12 +69,11 @@ const values = [
 ];
 
 const milestones = [
-  { year: siteConfig.foundedYear, event: "Gründung von SunTec Nova in Hanau durch Angelo Iliev" },
-  { year: "2017", event: "Erste 100 erfolgreich installierte PV-Anlagen im Rhein-Main-Gebiet" },
-  { year: "2020", event: "Erweiterung des Teams – nun 12+ Fachleute im Einsatz" },
-  { year: "2022", event: "Partnerschaft mit führenden Marken: Viessmann, Huawei, AlphaESS" },
-  { year: "2023", event: "Strategische Erweiterung: Wärmepumpen als Kernleistung eingeführt" },
-  { year: "2024", event: "Über 300 Projekte abgeschlossen – im gesamten Rhein-Main-Gebiet" },
+  { year: "2024", event: "Gründung der SunTec Nova GmbH in Hanau (HRB 99910, Amtsgericht Hanau) durch Angelov Ivan Iliev" },
+  { year: "2024", event: "Erste Photovoltaik- und Wärmepumpen-Projekte im Rhein-Main-Gebiet erfolgreich abgeschlossen" },
+  { year: "2024", event: "Partnerschaft mit führenden Marken: Viessmann, Huawei, AlphaESS und Luxor Solar" },
+  { year: "2025", event: "Stetiges Wachstum – Erweiterung des Teams und des Einsatzgebiets im Rhein-Main-Gebiet" },
+  { year: "2025", event: "Spezialisierung auf die Kombination PV + Wärmepumpe als Komplettlösung aus einer Hand" },
 ];
 
 export default function UeberUnsPage() {
@@ -106,7 +105,7 @@ export default function UeberUnsPage() {
               Ein regional verwurzelter Fachbetrieb mit dem Anspruch, Photovoltaik
               und Wärmepumpen so zu planen und zu installieren, wie wir es für uns
               selbst tun würden: sorgfältig, ehrlich und auf Langfristigkeit
-              ausgelegt. Gegründet und geführt von Angelo Iliev.
+              ausgelegt. Gegründet und geführt von Angelov Ivan Iliev.
             </p>
           </div>
         </div>
@@ -119,17 +118,15 @@ export default function UeberUnsPage() {
             {/* Founder Card */}
             <div className="flex flex-col sm:flex-row gap-6 items-start">
               <div className="shrink-0">
-                {/* Foto-Platzhalter */}
-                <div
-                  className="w-32 h-32 rounded-2xl flex items-center justify-center text-center text-xs text-slate-400 border-2 border-dashed border-slate-200"
-                  style={{ background: "rgba(245,168,0,0.05)" }}
-                >
-                  <div>
-                    <div className="text-3xl mb-1">👤</div>
-                    <div className="text-[9px] leading-snug px-1">
-                      Foto Angelo<br />hier einfügen
-                    </div>
-                  </div>
+                <div className="w-36 h-36 rounded-2xl overflow-hidden shadow-lg border-4 border-white" style={{ boxShadow: "0 4px 24px rgba(245,168,0,0.18)" }}>
+                  <Image
+                    src="/images/team/angelo.jpg"
+                    alt="Angelov Ivan Iliev – Geschäftsführer SunTec Nova GmbH"
+                    width={144}
+                    height={144}
+                    className="w-full h-full object-cover object-top"
+                    unoptimized
+                  />
                 </div>
               </div>
               <div>
@@ -139,7 +136,7 @@ export default function UeberUnsPage() {
                 >
                   Gründer & Geschäftsführer
                 </div>
-                <h2 className="text-2xl font-bold text-[#071428] mb-2">Angelo Iliev</h2>
+                <h2 className="text-2xl font-bold text-[#071428] mb-2">Angelov Ivan Iliev</h2>
                 <p className="text-slate-600 text-sm leading-relaxed mb-4">
                   {siteConfig.founder.bio}
                 </p>
@@ -312,7 +309,7 @@ export default function UeberUnsPage() {
           </h2>
           <p className="text-lg text-white/80 mb-8 max-w-2xl mx-auto">
             Am besten im persönlichen Gespräch – telefonisch oder bei Ihnen vor
-            Ort. Angelo Iliev und das SunTec Nova-Team freuen sich auf Sie.
+            Ort. Angelov Ivan Iliev und das SunTec Nova-Team freuen sich auf Sie.
           </p>
           <div className="flex flex-wrap justify-center gap-4">
             <CTAButton href="/kontakt" variant="secondary" size="lg" arrow>
