@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 60" width="200" height="60">
+  <rect width="200" height="60" fill="none"/>
+  <path d="M10 30 Q15 15 20 30 Q25 45 30 30" stroke="#00A651" stroke-width="4" fill="none" stroke-linecap="round"/>
+  <text x="42" y="38" font-family="Arial,Helvetica,sans-serif" font-size="22" font-weight="700" fill="#1a1a1a">Sungrow</text>
+</svg>

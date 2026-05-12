@@ -43,39 +43,39 @@ export const siteConfig = {
   partners: [
     {
       name: "Bosch",
-      logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Bosch-logo.svg/320px-Bosch-logo.svg.png",
+      logo: "/images/partners/bosch.svg",
     },
     {
       name: "Huawei",
-      logo: "https://cdn.prod.website-files.com/667abfd141bd9d4cbe13fa2a/668fd1ab80ad88fe9191090d_Huawei_logo_icon_170010.png",
+      logo: "/images/partners/huawei.png",
     },
     {
       name: "Sungrow",
-      logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Sungrow_Power_Supply_Co._%28logo%29.svg/320px-Sungrow_Power_Supply_Co._%28logo%29.svg.png",
+      logo: "/images/partners/sungrow.svg",
     },
     {
       name: "Fronius",
-      logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Fronius_International_GmbH_logo.svg/320px-Fronius_International_GmbH_logo.svg.png",
+      logo: "/images/partners/fronius.svg",
     },
     {
       name: "AlphaESS",
-      logo: "https://cdn.prod.website-files.com/667abfd141bd9d4cbe13fa2a/6699893d180a5b1c49664047_AlphaESS_color__horizontal.webp",
+      logo: "/images/partners/alphaess.webp",
     },
     {
       name: "Bauer Solar",
-      logo: "https://www.bauer-solar.de/wp-content/uploads/2021/03/bauer-solar-logo.png",
+      logo: "/images/partners/bauersolar.svg",
     },
     {
       name: "Trina Solar",
-      logo: "https://cdn.prod.website-files.com/667abfd141bd9d4cbe13fa2a/668fd1ab964f0b68afe08a19_2560px-Trina_Solar_logo.svg.png",
+      logo: "/images/partners/trina.png",
     },
     {
       name: "Aiko Solar",
-      logo: "https://cdn.prod.website-files.com/667abfd141bd9d4cbe13fa2a/66998941345199ad37a88e2c_aiko-logo.png",
+      logo: "/images/partners/aiko.png",
     },
     {
       name: "K2 System",
-      logo: "https://cdn.prod.website-files.com/667abfd141bd9d4cbe13fa2a/66bcb94f9aad15a7c59fdffe_images.png",
+      logo: "/images/partners/k2system.png",
     },
   ],
 
