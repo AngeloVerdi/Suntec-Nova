@@ -39,39 +39,39 @@ export const siteConfig = {
     instagram: "https://www.instagram.com/suntec_nova/",
   },
 
-  // Partner-Logos (CDN-URLs direkt von der bestehenden Website)
+  // Partner-Logos
   partners: [
     {
-      name: "Viessmann",
-      logo: "https://cdn.prod.website-files.com/667abfd141bd9d4cbe13fa2a/668fd1ab5f621d8571af13bf_Viessmann-logo.svg.png",
-    },
-    {
-      name: "Luxor Solar",
-      logo: "https://cdn.prod.website-files.com/667abfd141bd9d4cbe13fa2a/668fd1ab220d5be9b2e9731a_manufacturer-logo-luxor.png",
-    },
-    {
-      name: "Solar Fabrik",
-      logo: "https://cdn.prod.website-files.com/667abfd141bd9d4cbe13fa2a/668fd1ab1bcd3eeda2ac61ef_Solar-Fabrik_Logo.svg.png",
-    },
-    {
-      name: "Aiko Solar",
-      logo: "https://cdn.prod.website-files.com/667abfd141bd9d4cbe13fa2a/66998941345199ad37a88e2c_aiko-logo.png",
-    },
-    {
-      name: "AlphaESS",
-      logo: "https://cdn.prod.website-files.com/667abfd141bd9d4cbe13fa2a/6699893d180a5b1c49664047_AlphaESS_color__horizontal.webp",
+      name: "Bosch",
+      logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Bosch-logo.svg/320px-Bosch-logo.svg.png",
     },
     {
       name: "Huawei",
       logo: "https://cdn.prod.website-files.com/667abfd141bd9d4cbe13fa2a/668fd1ab80ad88fe9191090d_Huawei_logo_icon_170010.png",
     },
     {
+      name: "Sungrow",
+      logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Sungrow_Power_Supply_Co._%28logo%29.svg/320px-Sungrow_Power_Supply_Co._%28logo%29.svg.png",
+    },
+    {
+      name: "Fronius",
+      logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Fronius_International_GmbH_logo.svg/320px-Fronius_International_GmbH_logo.svg.png",
+    },
+    {
+      name: "AlphaESS",
+      logo: "https://cdn.prod.website-files.com/667abfd141bd9d4cbe13fa2a/6699893d180a5b1c49664047_AlphaESS_color__horizontal.webp",
+    },
+    {
+      name: "Bauer Solar",
+      logo: "https://www.bauer-solar.de/wp-content/uploads/2021/03/bauer-solar-logo.png",
+    },
+    {
       name: "Trina Solar",
       logo: "https://cdn.prod.website-files.com/667abfd141bd9d4cbe13fa2a/668fd1ab964f0b68afe08a19_2560px-Trina_Solar_logo.svg.png",
     },
     {
-      name: "Enphase",
-      logo: "https://cdn.prod.website-files.com/667abfd141bd9d4cbe13fa2a/668fd1abdb44c69b827053e5_Enphase.png",
+      name: "Aiko Solar",
+      logo: "https://cdn.prod.website-files.com/667abfd141bd9d4cbe13fa2a/66998941345199ad37a88e2c_aiko-logo.png",
     },
     {
       name: "K2 System",

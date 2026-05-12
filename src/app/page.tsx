@@ -124,16 +124,19 @@ export default function HomePage() {
       />
 
       {/* ─── HERO ─────────────────────────────────────────── */}
-      <section
-        className="relative min-h-screen flex items-center overflow-hidden"
-        style={{
-          backgroundImage: "url('/images/hero.jpg')",
-          backgroundSize: "cover",
-          backgroundPosition: "center",
-        }}
-      >
+      <section className="relative min-h-screen flex items-center overflow-hidden">
+        {/* Video Hintergrund */}
+        <video
+          className="absolute inset-0 w-full h-full object-cover"
+          autoPlay
+          muted
+          loop
+          playsInline
+        >
+          <source src="/images/video-wartung.mp4" type="video/mp4" />
+        </video>
         {/* Dunkler Overlay damit Text lesbar bleibt */}
-        <div className="absolute inset-0" style={{ background: "linear-gradient(135deg, rgba(7,20,40,0.88) 0%, rgba(14,34,68,0.80) 60%, rgba(23,46,94,0.70) 100%)" }} />
+        <div className="absolute inset-0" style={{ background: "linear-gradient(135deg, rgba(7,20,40,0.88) 0%, rgba(14,34,68,0.80) 60%, rgba(23,46,94,0.60) 100%)" }} />
         <div
           className="absolute top-1/4 right-0 w-[600px] h-[600px] rounded-full blur-3xl opacity-10 pointer-events-none"
           style={{ background: "radial-gradient(circle, #f5a800, transparent)" }}
@@ -188,19 +191,6 @@ export default function HomePage() {
             </div>
           </div>
         </div>
-      </section>
-
-      {/* ─── VIDEO ────────────────────────────────────────── */}
-      <section className="py-0 bg-black">
-        <video
-          className="w-full max-h-[500px] object-cover"
-          autoPlay
-          muted
-          loop
-          playsInline
-        >
-          <source src="/images/video-wartung.mp4" type="video/mp4" />
-        </video>
       </section>
 
       {/* ─── TRUST BAR ───────────────────────────────────── */}

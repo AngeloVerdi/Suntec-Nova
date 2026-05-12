@@ -113,81 +113,79 @@ export default function UeberUnsPage() {
 
       {/* ─── GRÜNDER ──────────────────────────────────────── */}
       <section className="py-20 bg-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid lg:grid-cols-2 gap-12 items-center">
-            {/* Founder Card */}
-            <div className="flex flex-col sm:flex-row gap-6 items-start">
-              <div className="shrink-0">
-                <div className="w-36 h-36 rounded-2xl overflow-hidden shadow-lg border-4 border-white" style={{ boxShadow: "0 4px 24px rgba(245,168,0,0.18)" }}>
-                  <Image
-                    src="/images/team/angelo.jpg"
-                    alt="Angelov Ivan Iliev – Geschäftsführer SunTec Nova GmbH"
-                    width={144}
-                    height={144}
-                    className="w-full h-full object-cover object-top"
-                    unoptimized
-                  />
-                </div>
-              </div>
-              <div>
-                <div
-                  className="inline-block text-xs font-bold uppercase tracking-widest mb-2 px-3 py-1 rounded-full"
-                  style={{ color: "#f5a800", background: "rgba(245,168,0,0.1)" }}
-                >
-                  Gründer & Geschäftsführer
-                </div>
-                <h2 className="text-2xl font-bold text-[#071428] mb-2">Angelov Ivan Iliev</h2>
-                <p className="text-slate-600 text-sm leading-relaxed mb-4">
-                  {siteConfig.founder.bio}
-                </p>
-                <div className="space-y-2">
-                  <a
-                    href={`tel:${siteConfig.phone}`}
-                    className="flex items-center gap-2 text-sm text-[#071428] hover:text-[#f5a800] transition-colors"
-                  >
-                    <Phone className="w-4 h-4" style={{ color: "#f5a800" }} />
-                    {siteConfig.phoneDisplay}
-                  </a>
-                  <a
-                    href={`mailto:${siteConfig.email}`}
-                    className="flex items-center gap-2 text-sm text-[#071428] hover:text-[#f5a800] transition-colors"
-                  >
-                    <Mail className="w-4 h-4" style={{ color: "#f5a800" }} />
-                    {siteConfig.email}
-                  </a>
-                </div>
-              </div>
-            </div>
+        <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
 
-            {/* Stats */}
-            <div className="space-y-4">
-              <div className="grid grid-cols-2 gap-4">
-                {[
-                  { value: siteConfig.foundedYear, label: "Gründungsjahr", sub: "Hanau" },
-                  { value: siteConfig.projectsCompleted + "+", label: "Projekte", sub: "erfolgreich abgeschlossen" },
-                  { value: siteConfig.yearsExperience + " J.", label: "Erfahrung", sub: "in der Solarbranche" },
-                  { value: siteConfig.employeeCount + "+", label: "Fachleute", sub: "im Team" },
-                ].map((stat, i) => (
-                  <div key={i} className="rounded-2xl p-5 border border-slate-100 bg-[#f8fafc] text-center">
-                    <div className="text-2xl font-black text-[#071428] mb-0.5">{stat.value}</div>
-                    <div className="text-xs font-semibold text-slate-600">{stat.label}</div>
-                    <div className="text-[10px] text-slate-400">{stat.sub}</div>
+          {/* Foto zentriert */}
+          <div className="flex flex-col items-center text-center mb-12">
+            <div
+              className="w-56 h-64 sm:w-64 sm:h-72 rounded-3xl overflow-hidden shadow-2xl mb-6"
+              style={{ border: "4px solid #f5a800", boxShadow: "0 8px 40px rgba(245,168,0,0.20)" }}
+            >
+              <Image
+                src="/images/team/angelo.jpg"
+                alt="Angelov Ivan Iliev – Geschäftsführer SunTec Nova GmbH"
+                width={256}
+                height={288}
+                className="w-full h-full object-cover object-center"
+                unoptimized
+              />
+            </div>
+            <div
+              className="inline-block text-xs font-bold uppercase tracking-widest mb-3 px-4 py-1.5 rounded-full"
+              style={{ color: "#f5a800", background: "rgba(245,168,0,0.1)" }}
+            >
+              Gründer & Geschäftsführer
+            </div>
+            <h2 className="text-3xl font-bold text-[#071428] mb-3">Angelov Ivan Iliev</h2>
+            <p className="text-slate-600 leading-relaxed mb-5 max-w-2xl">
+              {siteConfig.founder.bio}
+            </p>
+            <div className="flex flex-wrap justify-center gap-4">
+              <a
+                href={`tel:${siteConfig.phone}`}
+                className="flex items-center gap-2 px-5 py-2.5 rounded-xl border border-slate-200 text-sm font-medium text-[#071428] hover:border-[#f5a800] hover:text-[#f5a800] transition-colors"
+              >
+                <Phone className="w-4 h-4" style={{ color: "#f5a800" }} />
+                {siteConfig.phoneDisplay}
+              </a>
+              <a
+                href={`mailto:${siteConfig.email}`}
+                className="flex items-center gap-2 px-5 py-2.5 rounded-xl border border-slate-200 text-sm font-medium text-[#071428] hover:border-[#f5a800] hover:text-[#f5a800] transition-colors"
+              >
+                <Mail className="w-4 h-4" style={{ color: "#f5a800" }} />
+                {siteConfig.email}
+              </a>
+            </div>
+          </div>
+
+          {/* Stats */}
+          <div className="space-y-4 max-w-3xl mx-auto">
+            <div className="grid grid-cols-2 sm:grid-cols-4 gap-4">
+              {[
+                { value: siteConfig.foundedYear, label: "Gründungsjahr", sub: "Hanau" },
+                { value: siteConfig.projectsCompleted + "+", label: "Projekte", sub: "erfolgreich abgeschlossen" },
+                { value: siteConfig.yearsExperience + " J.", label: "Erfahrung", sub: "in der Solarbranche" },
+                { value: siteConfig.employeeCount + "+", label: "Fachleute", sub: "im Team" },
+              ].map((stat, i) => (
+                <div key={i} className="rounded-2xl p-5 border border-slate-100 bg-[#f8fafc] text-center">
+                  <div className="text-2xl font-black text-[#071428] mb-0.5">{stat.value}</div>
+                  <div className="text-xs font-semibold text-slate-600">{stat.label}</div>
+                  <div className="text-[10px] text-slate-400">{stat.sub}</div>
+                </div>
+              ))}
+            </div>
+            <div
+              className="rounded-2xl p-5"
+              style={{ background: "linear-gradient(135deg, #071428, #0e2244)" }}
+            >
+              <h3 className="text-sm font-bold text-white mb-3">Zertifizierungen</h3>
+              <div className="grid grid-cols-2 sm:grid-cols-4 gap-2">
+                {siteConfig.certifications.map((cert) => (
+                  <div key={cert} className="flex items-center gap-2">
+                    <CheckCircle className="w-3.5 h-3.5 shrink-0" style={{ color: "#f5a800" }} />
+                    <span className="text-slate-300 text-xs">{cert}</span>
                   </div>
                 ))}
-              </div>
-              <div
-                className="rounded-2xl p-5"
-                style={{ background: "linear-gradient(135deg, #071428, #0e2244)" }}
-              >
-                <h3 className="text-sm font-bold text-white mb-3">Zertifizierungen</h3>
-                <div className="grid grid-cols-2 gap-2">
-                  {siteConfig.certifications.map((cert) => (
-                    <div key={cert} className="flex items-center gap-2">
-                      <CheckCircle className="w-3.5 h-3.5 shrink-0" style={{ color: "#f5a800" }} />
-                      <span className="text-slate-300 text-xs">{cert}</span>
-                    </div>
-                  ))}
-                </div>
               </div>
             </div>
           </div>

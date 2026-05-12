@@ -142,7 +142,17 @@ export default function KontaktPage() {
                   unoptimized
                 />
               </div>
-              <h2 className="text-2xl font-bold text-[#071428] mb-6">Unsere Adresse</h2>
+              <div className="flex items-center gap-3 mb-6">
+                <Image
+                  src="/logo.png"
+                  alt="SunTec Nova GmbH"
+                  width={80}
+                  height={80}
+                  className="h-16 w-16 object-contain"
+                  unoptimized
+                />
+                <h2 className="text-2xl font-bold text-[#071428]">Unsere Adresse</h2>
+              </div>
               <div className="space-y-4 mb-8">
                 <div className="flex items-start gap-3">
                   <MapPin className="w-5 h-5 mt-0.5 shrink-0" style={{ color: "#f5a800" }} />

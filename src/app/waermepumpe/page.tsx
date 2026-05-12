@@ -278,29 +278,6 @@ export default function WaermepumpePage() {
         </div>
       </section>
 
-      {/* ─── BILD SOLAR-HAUS ──────────────────────────────── */}
-      <section className="py-0 bg-white overflow-hidden">
-        <div className="relative w-full h-64 sm:h-80 md:h-96">
-          <Image
-            src="/images/solar-haus.jpg"
-            alt="Einfamilienhaus mit Photovoltaik und Wärmepumpe im Rhein-Main-Gebiet"
-            fill
-            className="object-cover"
-            unoptimized
-          />
-          <div className="absolute inset-0 bg-gradient-to-r from-[#071428]/70 via-transparent to-transparent" />
-          <div className="absolute inset-0 flex items-center px-8 sm:px-16">
-            <div>
-              <p className="text-white/70 text-sm font-semibold uppercase tracking-widest mb-2">Ihr Zuhause</p>
-              <h3 className="text-2xl sm:text-3xl font-bold text-white leading-tight">
-                Sauber. Effizient.<br />
-                <span style={{ color: "#f5a800" }}>Energieautark.</span>
-              </h3>
-            </div>
-          </div>
-        </div>
-      </section>
-
       {/* ─── TYPEN ────────────────────────────────────────── */}
       <section className="py-20 bg-[#f8fafc]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
