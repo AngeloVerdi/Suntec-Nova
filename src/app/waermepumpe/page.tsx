@@ -219,6 +219,29 @@ export default function WaermepumpePage() {
         </div>
       </section>
 
+      {/* ─── BOSCH BILD ───────────────────────────────────── */}
+      <section className="py-0 bg-white overflow-hidden">
+        <div className="relative w-full h-64 sm:h-80 md:h-[420px]">
+          <Image
+            src="/images/bosch-waermepumpe.jpg"
+            alt="Bosch Wärmepumpe – Installation durch SunTec Nova im Rhein-Main-Gebiet"
+            fill
+            className="object-cover"
+            unoptimized
+          />
+          <div className="absolute inset-0 bg-gradient-to-r from-[#071428]/75 via-[#071428]/30 to-transparent" />
+          <div className="absolute inset-0 flex items-center px-8 sm:px-16">
+            <div>
+              <p className="text-white/70 text-sm font-semibold uppercase tracking-widest mb-2">Markenpartner</p>
+              <h3 className="text-2xl sm:text-3xl font-bold text-white leading-tight">
+                Bosch Wärmepumpen –<br />
+                <span style={{ color: "#f5a800" }}>Top-Qualität für Ihr Zuhause.</span>
+              </h3>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* ─── FÜR WEN ──────────────────────────────────────── */}
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
