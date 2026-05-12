@@ -43,7 +43,7 @@ export const siteConfig = {
   partners: [
     {
       name: "Bosch",
-      logo: "/images/partners/bosch.svg",
+      logo: "/images/partners/bosch.png",
     },
     {
       name: "Huawei",
