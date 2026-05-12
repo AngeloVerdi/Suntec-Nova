@@ -34,9 +34,9 @@ export const siteConfig = {
 
   // Social Media
   social: {
-    youtube: "https://www.youtube.com/@suntec-nova",
+    youtube: "https://www.youtube.com/@suntecnova",
     facebook: "https://www.facebook.com/suntecnova",
-    instagram: "https://www.instagram.com/suntec_nova/",
+    instagram: "https://www.instagram.com/suntecnova/",
   },
 
   // Partner-Logos
