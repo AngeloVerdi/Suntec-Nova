@@ -33,7 +33,12 @@ export default function DatenschutzPage() {
             {
               title: "3. Hosting",
               content:
-                "Diese Website wird bei einem Hosting-Anbieter betrieben. Die Daten, die beim Besuch dieser Website erhoben werden (Server-Logfiles), werden auf den Servern des Anbieters gespeichert. Weitere Informationen entnehmen Sie bitte den Datenschutzhinweisen des jeweiligen Hosting-Anbieters.",
+                "Diese Website wird gehostet bei Vercel Inc., 340 Pine Street, Suite 701, San Francisco, CA 94104, USA. Beim Besuch der Website werden automatisch Server-Logfiles erfasst (IP-Adresse, Browser, Betriebssystem, Uhrzeit). Die Übertragung in die USA erfolgt auf Grundlage der EU-Standardvertragsklauseln (Art. 46 Abs. 2 lit. c DSGVO). Weitere Informationen: https://vercel.com/legal/privacy-policy",
+            },
+            {
+              title: "3a. E-Mail-Versand (Kontaktformular)",
+              content:
+                "Die über das Kontaktformular übermittelten Daten werden zum Versand der Benachrichtigungs-E-Mail an uns über den Dienst Resend (Resend Inc., 2261 Market Street #5039, San Francisco, CA 94114, USA) verarbeitet. Resend ist als Auftragsverarbeiter gemäß Art. 28 DSGVO vertraglich gebunden. Die Daten werden ausschließlich zur Weiterleitung der Anfrage genutzt und nicht dauerhaft bei Resend gespeichert. Weitere Informationen: https://resend.com/legal/privacy-policy",
             },
             {
               title: "4. Cookies",
