@@ -19,6 +19,7 @@ import {
 import CTAButton from "@/components/ui/CTAButton";
 import SectionHeading from "@/components/ui/SectionHeading";
 import ContactForm from "@/components/sections/ContactForm";
+import WirtschaftlichkeitsRechner from "@/components/sections/WirtschaftlichkeitsRechner";
 import { siteConfig } from "@/config/site";
 
 export const metadata: Metadata = {
@@ -264,6 +265,20 @@ export default function EnergieberatungPage() {
                 <p className="text-sm text-slate-600">Qualitätsmodule mit 20 Jahren Produktgarantie und bis zu 25 Jahren Leistungsgarantie. Ihre Investition ist langfristig abgesichert.</p>
               </div>
             </div>
+          </div>
+        </div>
+      </section>
+
+      {/* ─── RECHNER ──────────────────────────────────────── */}
+      <section className="py-20 bg-[#f8fafc]">
+        <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+          <SectionHeading
+            label="Wirtschaftlichkeit prüfen"
+            title="Was bringt mir eine PV-Anlage?"
+            subtitle="Berechnen Sie Ihre geschätzte Ersparnis – passen Sie die Werte einfach an Ihre Situation an."
+          />
+          <div className="mt-10">
+            <WirtschaftlichkeitsRechner />
           </div>
         </div>
       </section>
