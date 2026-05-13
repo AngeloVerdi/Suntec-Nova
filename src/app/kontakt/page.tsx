@@ -131,17 +131,6 @@ export default function KontaktPage() {
           <div className="grid lg:grid-cols-2 gap-12">
             {/* Address */}
             <div>
-              {/* Visitenkarte */}
-              <div className="mb-8 rounded-2xl overflow-hidden shadow-lg">
-                <Image
-                  src="https://cdn.prod.website-files.com/667abfd141bd9d4cbe13fa2a/667ac262feb688dc29235859_neu%20suntec%20nova%20visitenlarte%20mit%20gelb.png"
-                  alt="SunTec Nova Visitenkarte"
-                  width={600}
-                  height={350}
-                  className="w-full h-auto object-contain"
-                  unoptimized
-                />
-              </div>
               <div className="mb-6">
                 <span
                   className="inline-block text-xs font-bold uppercase tracking-widest px-3 py-1 rounded-full mb-3"
