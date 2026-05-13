@@ -50,12 +50,26 @@ export default function ContactForm() {
   });
   const [submitted, setSubmitted] = useState(false);
   const [loading, setLoading] = useState(false);
+  const [error, setError] = useState(false);
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     setLoading(true);
-    await new Promise((r) => setTimeout(r, 1200));
-    setSubmitted(true);
+    setError(false);
+    try {
+      const res = await fetch("/api/contact", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(formData),
+      });
+      if (res.ok) {
+        setSubmitted(true);
+      } else {
+        setError(true);
+      }
+    } catch {
+      setError(true);
+    }
     setLoading(false);
   };
 
@@ -333,6 +347,15 @@ export default function ContactForm() {
             <a href="/datenschutz" className="underline hover:text-slate-700">Datenschutzerklärung</a>
           </label>
         </div>
+
+        {error && (
+          <div className="p-4 rounded-xl bg-red-50 border border-red-200 text-sm text-red-700">
+            Es gab einen Fehler beim Senden. Bitte rufen Sie uns direkt an:{" "}
+            <a href={`tel:${siteConfig.phone}`} className="font-semibold underline">
+              {siteConfig.phoneDisplay}
+            </a>
+          </div>
+        )}
 
         <button
           type="submit"
