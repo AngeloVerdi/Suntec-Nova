@@ -33,7 +33,7 @@ export default function DatenschutzPage() {
             {
               title: "3. Hosting",
               content:
-                "Diese Website wird gehostet bei Vercel Inc., 340 Pine Street, Suite 701, San Francisco, CA 94104, USA. Beim Besuch der Website werden automatisch Server-Logfiles erfasst (IP-Adresse, Browser, Betriebssystem, Uhrzeit). Die Übertragung in die USA erfolgt auf Grundlage der EU-Standardvertragsklauseln (Art. 46 Abs. 2 lit. c DSGVO). Weitere Informationen: https://vercel.com/legal/privacy-policy",
+                "Diese Website wird gehostet bei IONOS SE, Elgendorfer Straße 57, 56410 Montabaur, Deutschland. Beim Besuch der Website werden automatisch Server-Logfiles erfasst (IP-Adresse, Browsertyp, Betriebssystem, Datum und Uhrzeit des Zugriffs). Diese Daten werden ausschließlich zur technischen Bereitstellung der Website verarbeitet. IONOS ist ein in der EU ansässiger Anbieter und verarbeitet Daten gemäß DSGVO. Weitere Informationen: https://www.ionos.de/terms-gtc/datenschutzerklaerung/",
             },
             {
               title: "3a. E-Mail-Versand (Kontaktformular)",
