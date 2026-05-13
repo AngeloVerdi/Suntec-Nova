@@ -3,6 +3,7 @@
 import { useState, useEffect } from "react";
 import Link from "next/link";
 import Image from "next/image";
+import { usePathname } from "next/navigation";
 import { Menu, X, Phone } from "lucide-react";
 import { siteConfig } from "@/config/site";
 
@@ -19,6 +20,14 @@ const navLinks = [
 export default function Header() {
   const [isOpen, setIsOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
+  const pathname = usePathname();
+
+  // Pages with dark hero backgrounds where logo/text should always be light at top
+  const darkHeroPages = ["/ueber-uns", "/foerderung", "/photovoltaik", "/waermepumpe", "/wartung", "/kontakt", "/impressum", "/datenschutz", "/agb", "/referenzen"];
+  const hasDarkHero = darkHeroPages.some(p => pathname?.startsWith(p));
+
+  // Logo should be white when: on homepage (transparent over video) OR on dark-hero pages when not scrolled
+  const logoWhite = !scrolled || hasDarkHero && !scrolled;
 
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 20);
@@ -45,7 +54,7 @@ export default function Header() {
               width={160}
               height={160}
               className={`h-28 w-28 object-contain transition-all duration-300 ${
-                scrolled ? "" : "brightness-0 invert"
+                logoWhite ? "brightness-0 invert" : ""
               }`}
               priority
               unoptimized

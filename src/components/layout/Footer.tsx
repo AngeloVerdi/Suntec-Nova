@@ -20,7 +20,7 @@ export default function Footer() {
                 alt="SunTec Nova Logo"
                 width={120}
                 height={60}
-                className="h-14 w-auto object-contain"
+                className="h-14 w-auto object-contain brightness-0 invert"
                 unoptimized
               />
             </Link>
