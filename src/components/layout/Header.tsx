@@ -44,7 +44,9 @@ export default function Header() {
               alt="SunTec Nova Logo"
               width={160}
               height={160}
-              className="h-28 w-28 object-contain"
+              className={`h-28 w-28 object-contain transition-all duration-300 ${
+                scrolled ? "" : "brightness-0 invert"
+              }`}
               priority
               unoptimized
             />
