@@ -104,10 +104,17 @@ export default function WartungPage() {
   return (
     <>
       {/* ─── HERO ─────────────────────────────────────────── */}
-      <section
-        className="relative pt-32 pb-20 overflow-hidden"
-        style={{ backgroundImage: "url('/images/reinigung-1.jpg')", backgroundSize: "cover", backgroundPosition: "center" }}
-      >
+      <section className="relative pt-32 pb-20 overflow-hidden">
+        {/* Video Hintergrund */}
+        <video
+          className="absolute inset-0 w-full h-full object-cover"
+          autoPlay
+          muted
+          loop
+          playsInline
+        >
+          <source src="/images/video-wartung.mp4" type="video/mp4" />
+        </video>
         <div className="absolute inset-0" style={{ background: "linear-gradient(135deg, rgba(7,20,40,0.90) 0%, rgba(14,34,68,0.82) 100%)" }} />
         <div
           className="absolute bottom-0 left-1/3 w-[400px] h-[400px] rounded-full blur-3xl opacity-10 pointer-events-none"

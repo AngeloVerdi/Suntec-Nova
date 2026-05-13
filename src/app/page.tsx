@@ -133,7 +133,7 @@ export default function HomePage() {
           loop
           playsInline
         >
-          <source src="/images/video-wartung.mp4" type="video/mp4" />
+          <source src="/images/video-hero.mov" type="video/mp4" />
         </video>
         {/* Dunkler Overlay damit Text lesbar bleibt */}
         <div className="absolute inset-0" style={{ background: "linear-gradient(135deg, rgba(7,20,40,0.88) 0%, rgba(14,34,68,0.80) 60%, rgba(23,46,94,0.60) 100%)" }} />
