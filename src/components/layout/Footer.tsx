@@ -119,7 +119,7 @@ export default function Footer() {
                 { href: "/waermepumpe", label: "Wärmepumpe" },
                 { href: "/photovoltaik#speicher", label: "Batteriespeicher" },
                 { href: "/wartung", label: "Wartung & Reinigung" },
-                { href: "/kontakt", label: "Energieberatung" },
+                { href: "/energieberatung", label: "Energieberatung" },
                 { href: "/foerderung", label: "Förderberatung" },
               ].map((link) => (
                 <li key={link.href + link.label}>
