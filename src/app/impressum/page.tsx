@@ -43,7 +43,7 @@ export default function ImpressumPage() {
             <p className="text-slate-600 text-sm leading-relaxed">
               Registergericht: Amtsgericht Hanau<br />
               Registernummer: HRB 99910<br />
-              Umsatzsteuer-ID: [USt-IdNr. bitte eintragen]
+              Umsatzsteuer-ID: DE368162960
             </p>
           </section>
 

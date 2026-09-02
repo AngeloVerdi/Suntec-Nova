@@ -33,12 +33,12 @@ export default function DatenschutzPage() {
             {
               title: "3. Hosting",
               content:
-                "Diese Website wird gehostet bei IONOS SE, Elgendorfer Straße 57, 56410 Montabaur, Deutschland. Beim Besuch der Website werden automatisch Server-Logfiles erfasst (IP-Adresse, Browsertyp, Betriebssystem, Datum und Uhrzeit des Zugriffs). Diese Daten werden ausschließlich zur technischen Bereitstellung der Website verarbeitet. IONOS ist ein in der EU ansässiger Anbieter und verarbeitet Daten gemäß DSGVO. Weitere Informationen: https://www.ionos.de/terms-gtc/datenschutzerklaerung/",
+                "Diese Website wird gehostet bei Vercel Inc., 340 Pine Street, Suite 701, San Francisco, CA 94104, USA. Beim Besuch der Website werden automatisch Server-Logfiles erfasst (IP-Adresse, Browsertyp, Betriebssystem, Datum und Uhrzeit des Zugriffs). Diese Daten werden ausschließlich zur technischen Bereitstellung der Website verarbeitet. Die Server werden im Rechenzentrum Frankfurt (EU) betrieben. Vercel Inc. ist unter dem EU-U.S. Data Privacy Framework zertifiziert. Weitere Informationen: https://vercel.com/legal/privacy-policy",
             },
             {
-              title: "3a. E-Mail-Versand (Kontaktformular)",
+              title: "3a. E-Mail-Versand (Kontaktformulare)",
               content:
-                "Die über das Kontaktformular übermittelten Daten werden zum Versand der Benachrichtigungs-E-Mail an uns über den Dienst Resend (Resend Inc., 2261 Market Street #5039, San Francisco, CA 94114, USA) verarbeitet. Resend ist als Auftragsverarbeiter gemäß Art. 28 DSGVO vertraglich gebunden. Die Daten werden ausschließlich zur Weiterleitung der Anfrage genutzt und nicht dauerhaft bei Resend gespeichert. Weitere Informationen: https://resend.com/legal/privacy-policy",
+                "Die über die Kontaktformulare auf dieser Website übermittelten Daten (Name, E-Mail-Adresse, Telefonnummer, Nachricht) werden zum Versand der Benachrichtigungs-E-Mail an uns über den Dienst Resend (Resend Inc., 2261 Market Street #5039, San Francisco, CA 94114, USA) verarbeitet. Dies gilt für das Kontaktformular unter suntec-nova.de/kontakt sowie das Formular des Bereichs GreenTech Recycling unter suntec-nova.de/greentech/kontakt. Resend ist als Auftragsverarbeiter gemäß Art. 28 DSGVO vertraglich gebunden. Die Daten werden ausschließlich zur Weiterleitung der Anfrage genutzt und nicht dauerhaft bei Resend gespeichert. Weitere Informationen: https://resend.com/legal/privacy-policy",
             },
             {
               title: "4. Cookies",

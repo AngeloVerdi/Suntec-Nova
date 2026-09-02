@@ -121,6 +121,7 @@ export default function Footer() {
                 { href: "/wartung", label: "Wartung & Reinigung" },
                 { href: "/energieberatung", label: "Energieberatung" },
                 { href: "/foerderung", label: "Förderberatung" },
+                { href: "/greentech", label: "♻️ GreenTech Recycling" },
               ].map((link) => (
                 <li key={link.href + link.label}>
                   <Link href={link.href} className="text-sm text-slate-400 hover:text-white transition-colors">

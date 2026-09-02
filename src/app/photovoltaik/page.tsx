@@ -221,7 +221,7 @@ export default function PhotovoltaikPage() {
                   </div>
                 ))}
               </div>
-              <CTAButton href="/kontakt" arrow>
+              <CTAButton href="/energieberatung#rechner" arrow>
                 Wirtschaftlichkeit prüfen lassen
               </CTAButton>
             </div>

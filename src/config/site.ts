@@ -19,6 +19,7 @@ export const siteConfig = {
   country: "Deutschland",
   mainRegion: "Rhein-Main-Gebiet",
   whatsapp: "4915206066696",
+  vatId: "DE368162960",
   foundedYear: "2024",
   employeeCount: "12",
   projectsCompleted: "300",

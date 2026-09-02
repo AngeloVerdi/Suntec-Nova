@@ -270,7 +270,7 @@ export default function EnergieberatungPage() {
       </section>
 
       {/* ─── RECHNER ──────────────────────────────────────── */}
-      <section className="py-20 bg-[#f8fafc]">
+      <section id="rechner" className="py-20 bg-[#f8fafc]">
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
           <SectionHeading
             label="Wirtschaftlichkeit prüfen"

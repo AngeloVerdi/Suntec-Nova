@@ -1,8 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import Header from "@/components/layout/Header";
-import Footer from "@/components/layout/Footer";
-import MobileStickyBar from "@/components/layout/MobileStickyBar";
+import ConditionalLayout from "@/components/layout/ConditionalLayout";
 import { siteConfig } from "@/config/site";
 
 export const metadata: Metadata = {
@@ -99,10 +97,7 @@ export default function RootLayout({
         />
       </head>
       <body className="min-h-full flex flex-col antialiased">
-        <Header />
-        <main className="flex-1">{children}</main>
-        <Footer />
-        <MobileStickyBar />
+        <ConditionalLayout>{children}</ConditionalLayout>
       </body>
     </html>
   );
