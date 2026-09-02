@@ -82,7 +82,7 @@ const services = [
 ];
 
 const trustStats = [
-  { value: siteConfig.projectsCompleted + "+", label: "abgeschlossene Projekte" },
+  { value: "VIELE", label: "erfolgreich abgeschlossene Projekte" },
   { value: siteConfig.yearsExperience + " Jahre", label: "Erfahrung in der Region" },
   { value: "70 %", label: "max. BEG-Förderung Wärmepumpe" },
   { value: "4,9 / 5", label: "Kundenzufriedenheit" },
