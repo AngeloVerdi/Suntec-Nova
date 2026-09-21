@@ -339,7 +339,7 @@ export const siteConfig = {
         "Kontakt SunTec Nova, Energieberatung Hanau, Solar Wärmepumpe Beratung, Anfrage Photovoltaik",
     },
     foerderung: {
-      title: "Förderung Photovoltaik & Wärmepumpe 2024 | BEG, KfW | SunTec Nova Hanau",
+      title: "Förderung Photovoltaik & Wärmepumpe 2026 | BEG, KfW | SunTec Nova Hanau",
       description:
         "Alle aktuellen Förderprogramme für Photovoltaik und Wärmepumpen: BEG bis 70 %, KfW-Kredit, 0 % MwSt. Wir beantragen die Förderung für Sie. Kostenlose Beratung.",
       keywords:
